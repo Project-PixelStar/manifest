@@ -10,12 +10,15 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
   <project path="external/tinyxml" name="external_tinyxml" remote="pixel" />
 
+  <!-- GameSpace Chaldeaprjkt -->
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixelstar" />
+
   <!-- General repos -->
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel-plus" />
-  <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel-plus" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixelstar" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pixelstar" />
+  <project path="vendor/gms" name="vendor_gms" remote="pixelstar-gitlab" clone-depth="1" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixelstar" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixelstar" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
@@ -28,9 +31,12 @@
   <project path="packages/apps/RepainterService" name="packages_apps_RepainterService" remote="pixel-plus" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixelstar" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="pixel-plus" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixelstar" />
+  
+  <!-- Official Devices - OTA Script Generation -->
+  <project path="vendor/officialdevices" name="official_devices" remote="pixelstar-devices" />
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
