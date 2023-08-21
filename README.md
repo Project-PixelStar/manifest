@@ -4,12 +4,14 @@ Welcome to PixelStar, the ultimate AOSP Project built upon the solid foundation 
 
 ### Sync ###
 
+Initialize local repository
+
 ```bash
-
-# Initialize local repository
 repo init -u https://github.com/Project-PixelStar/manifest -b thirteen
+```
+Sync
 
-# Sync
+```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
@@ -17,8 +19,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 ```bash
 . build/envsetup.sh
-lunch aosp_$device-userdebug
-mka bacon -jX
+lunch aosp_$device-<userdebug/user/eng>
+mka bacon -jXT
 ```
 
 Credits
