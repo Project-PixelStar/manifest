@@ -2,6 +2,10 @@
 
 Welcome to PixelStar, the ultimate AOSP Project built upon the solid foundation of PixelExperience Plus. Our primary goal is simple yet ambitious - to deliver an unparalleled Android experience that's smooth, lag-free, and brimming with delightful customizations and pixel goodies.
 
+# Help #
+[Flags supported](https://github.com/Project-PixelStar/Flags) |
+ [Pixelstar-devices](https://github.com/Pixelstar-devices)
+
 ### Sync ###
 
 Initialize local repository
