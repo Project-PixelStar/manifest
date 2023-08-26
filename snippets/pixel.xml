@@ -51,6 +51,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
   <project path="external/toybox" name="external_toybox" remote="pixel" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
+  <project path="external/tigervnc" name="external_tigervnc" groups="pdk" remote="pixelstar" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixelstar" />
@@ -125,6 +126,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixelstar" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
+  <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" groups="pdk-fs" remote="pixelstar" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel" />
@@ -138,6 +140,7 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel-plus" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" groups="pdk-cw-fs,pdk-fs" remote="pixelstar" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
