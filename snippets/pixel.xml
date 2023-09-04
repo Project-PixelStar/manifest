@@ -171,4 +171,10 @@
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
 
+  <!-- Clangs -->
+   <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="clang-r487747" remote="pixelstar-gitlab" clone-depth="1" />
+   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="clang-proton" remote="pixelstar" clone-depth="1" />
+
+   <!-- PixelLauncher-Extended -->
+   <project path="vendor/PixelLauncherExtended" name="vendor_PixelLauncherExtended" remote="pixelstar" />
 </manifest>
