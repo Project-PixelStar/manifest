@@ -21,7 +21,7 @@
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixelstar" />
 
   <!-- Hardware repos -->
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixelstar" />
   <project path="hardware/custom/compat" name="hardware_custom_compat" remote="pixel" />
   <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="pixel-plus" />
   <!-- Packages repos -->
