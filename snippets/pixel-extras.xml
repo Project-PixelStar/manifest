@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- External repos -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="origin" />
   <project path="external/bson" name="external_bson" remote="pixel" />
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
   <project path="external/json-c" name="external_json-c" remote="pixel" />

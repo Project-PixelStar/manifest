@@ -11,7 +11,7 @@
           revision="thirteen-plus"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-gitlab"
+  <remote name="origin"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="thirteen" />
 
