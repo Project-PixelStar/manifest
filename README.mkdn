@@ -1,0 +1,51 @@
+# PixelStar #
+
+Welcome to PixelStar, the ultimate AOSP Project. Our primary goal is simple yet ambitious - to deliver an unparalleled Android experience that's smooth, lag-free, and brimming with delightful customizations along with almost all the pixel goodies.
+
+## Things that will help you getting started ##
+- [Flags supported](https://github.com/Project-PixelStar/Flags)
+- [Pixelstar-devices](https://github.com/Pixelstar-devices)
+
+
+[![Download PixelStar]](https://www.pling.com/p/2066696)
+
+### Sync ###
+
+```bash
+repo init -u https://github.com/Project-PixelStar/manifest -b 14
+```
+
+```bash
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
+### Build ###
+
+```bash
+. build/envsetup.sh
+lunch aosp_$device-<userdebug/user/eng>
+mka bacon -jXT
+```
+
+## Important Links ##
+- [Telegram Announcement Channel](https://t.me/pixelstarchannel)
+- [Telegram Discussion Group](https://t.me/Project_PixelStar)
+
+Credits
+=======
+
+- [**AOSP**](https://android.googlesource.com)
+- [**ArrowOS**](https://github.com/ArrowOS)
+- [**LineageOS**](https://github.com/LineageOS)
+- [**Superior OS**](https://github.com/SuperiorOS)
+- [**crDroid**](https://github.com/crdroid-android)
+- [**PixelExperience**](https://github.com/PixelExperience)
+- [**Pixys**](https://github.com/PixysOS)
+- [**VoidUI**](https://github.com/VoidUI-Tiramisu)
+- [**RisingOS**](https://github.com/RisingTechOSS)
+- [**Project-404**](https://github.com/P-404)
+- and many more....
+
+
+## Jai Shri Ram ##
+
