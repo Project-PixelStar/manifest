@@ -112,7 +112,8 @@
   <project path="system/core" name="system_core" groups="pdk" remote="pixelstar" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="pixelstar" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="pixelstar" />
-
+  <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="pixelstar" />
+  
   <!-- external -->
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="pixelstar" />
   

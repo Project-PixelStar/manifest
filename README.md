@@ -2,10 +2,10 @@
 PixelStar
 ===========
 
-[**Download**](https://sourceforge.net/projects/pixelstar/files/latest/download)
+[**Download**](https://www.pling.com/p/2066696)
 
 ## Things that will help you getting started ##
-- [Pixelstar-devices](https://github.com/Pixelstar-devices)
+- [Pixelstar-devices](https://github.com/pixelstar-devices)
 
 #### Note ####
 - Make sure git-lfs is installed 
@@ -13,18 +13,13 @@ PixelStar
 ### Sync ###
 
 ```bash
-repo init -u https://github.com/Project-PixelStar/manifest -b 14 --git-lfs
+git lfs install && repo init -u https://github.com/Project-PixelStar/manifest -b 14 --git-lfs && repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
-
-```bash
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-```
-
 ### Build ###
 
 ```bash
 . build/envsetup.sh
-lunch aosp_$device-<|userdebug/user/eng|>
+lunch pixelstar_$device-<|userdebug/user/eng|>
 mka bacon -jXT
 ```
 
