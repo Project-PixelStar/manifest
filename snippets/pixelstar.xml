@@ -60,8 +60,10 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="pixelstar" />
 
   <!-- Hardware -->
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="pixelstar" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pixelstar" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="pixelstar" >
+ 
     <!-- Add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- Add guards for CAF repositories -->
