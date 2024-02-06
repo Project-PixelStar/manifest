@@ -110,7 +110,9 @@
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="pixelstar" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pixelstar" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pixelstar" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixelstar" />
   <project path="packages/apps/Pif" name="packages_apps_Pif" remote="pixelstar" />
+  
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="pixelstar" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="pixelstar" />
