@@ -9,6 +9,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
            
+  <!-- Bitbucket -->
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org" />
+           
   <!-- GitHub (Project-Pixelstar) -->
   <remote  name="pixelstar"
            fetch="https://github.com/Project-Pixelstar/"
