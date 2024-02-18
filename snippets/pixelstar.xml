@@ -117,6 +117,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixelstar" />
   <project path="packages/apps/Pif" name="packages_apps_Pif" remote="pixelstar" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="pixelstar" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pixelstar" />
   
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="pixelstar" />
