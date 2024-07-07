@@ -14,7 +14,7 @@
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="tpp-gitlab" />
   <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="tpp" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="tpp" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="tpp" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="tpp" />
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="tpp" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="tpp" />
 
