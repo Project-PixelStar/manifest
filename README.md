@@ -1,43 +1,47 @@
-<div align="center">
 
-<img src="https://github.com/The-Pixel-Project/tpp_files/blob/main/TPPGithub.png?raw=true" >
+PixelStar
+===========
 
-</div>
+[**Download**](https://www.pling.com/p/2066696)
 
-A glimpse of the project
-------------
-The Pixel Project, an AOSP based custom rom lead by a passionate team aiming to provide a clean and smooth experience of stock android with Pixel Goodies.
+## Things that will help you getting started ##
+- [Pixelstar-devices](https://github.com/pixelstar-devices)
 
-Requirements
-------------
-- At least 250-300 GB free disk space.
-- A computer/server with at least 16GB RAM running Linux and a fast & stable internet connection.
-- Some basic knowledge of Linux commands, device tree management and git.
+#### Note ####
+- Make sure git-lfs is installed 
 
-Instructions
-------------
-### Prerequisites
-A properly configured build environment is required to build AOSP custom roms. A comprehensive guide for setting up the build environment can be found [here](https://source.android.com/setup/build/initializing).
+### Sync ###
 
-Sync up the source
-------------
 ```bash
-repo init -u https://github.com/The-Pixel-Project/manifest -b fourteen-qpr3 -g default,-mips,-darwin,-notdefault --git-lfs
-
-repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+git lfs install && repo init -u https://github.com/Project-PixelStar/manifest -b 14-qpr3 --git-lfs && repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
+### Build ###
 
-Build
-------------
-### Set up environment
-```
+```bash
 . build/envsetup.sh
+lunch pixelstar_$device-<|userdebug/user/eng|>
+mka bacon -jXT
 ```
-### Choose a target
-```
-lunch aosp_$device-userdebug
-```
-### Build the code
-```
-make bacon -j$(nproc --all)
-```
+
+## Important Links ##
+- [Telegram Announcement Channel](https://t.me/pixelstarchannel)
+- [Telegram Discussion Group](https://t.me/Project_PixelStar)
+
+# Credits:
+
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**ParanoidAndroid**](https://github.com/AOSPA)
+ * [**crDroid**](https://github.com/crdroidandroid)
+ * [**ArrowOS**](https://github.com/ArrowOS)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**YAAP**](https://github.com/yaap)
+ * [**PixysOS**](https://github.com/PixysOS)
+ * [**Havoc-OS**](https://github.com/Havoc-OS)
+ * [**ColtOS**](https://github.com/Colt-Enigma)
+ * [**TheParasiteProject**](https://github.com/TheParasiteProject)
+ * [**ThePixelProject**](https://github.com/The-Pixel-Project)
+
+* And tons of other ROMs not mentioned above
+
+
+## Jai Shri Ram ##

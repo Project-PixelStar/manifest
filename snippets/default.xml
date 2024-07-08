@@ -10,6 +10,9 @@
   <!-- Track ThePixelProject repos -->
   <include name="snippets/tpp.xml" />
 
+  <!-- Track Pixelstar repos -->
+  <include name="snippets/pixelstar.xml" />
+
   <!-- Track LineageOS repos -->
   <include name="snippets/lineage.xml" />
 </manifest>

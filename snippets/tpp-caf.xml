@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Hardware repos - QCOM -->
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="tpp" >
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pixelstar" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -33,6 +33,4 @@
   <!-- Vendor repos - QCOM -->
   <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="tpp" />
 
-  <!-- Device repos - QCOM -->
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" groups="qcom,sdm660" remote="tpp" />
 </manifest>
