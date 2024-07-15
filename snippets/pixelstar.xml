@@ -45,6 +45,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="pixelstar" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="pixelstar" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixelstar" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixelstar" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="pixelstar" />
