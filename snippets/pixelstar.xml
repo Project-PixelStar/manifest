@@ -64,6 +64,7 @@
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixelstar" />
   <project path="vendor/official_devices" name="official_devices" remote="pixelstar" revision="14"/>
   <project path="vendor/pixelstar" name="vendor_pixelstar" remote="pixelstar" />
+  <project path="vendor/microsoft/mms" name="vendor_microsoft_mms" remote="pixelstar-gitlab" />
 
   <!-- ProtonAosp -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" revision="main" remote="github" />
