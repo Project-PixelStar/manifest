@@ -6,6 +6,7 @@ PixelStar
 
 ## Things that will help you getting started ##
 - [Pixelstar-devices](https://github.com/pixelstar-devices)
+- [Flags](https://github.com/Project-PixelStar/Flags)
 
 #### Note ####
 - Make sure git-lfs is installed 
