@@ -19,10 +19,6 @@
   <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="tpp" />
   <project path="prebuilts/module_sdk" name="prebuilts_module_sdk" remote="tpp-gitlab" />
 
-  <!-- General repos -->
-  <project path="vendor/certification" name="vendor_certification" remote="tpp-gitlab" />
-  <project path="vendor/custom" name="vendor_custom" remote="tpp" />
-
   <!-- Google repos -->
   <project path="vendor/google/dexopt_profiles" name="vendor_google_dexopt_profiles" remote="tpp-gitlab" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="tpp" />
