@@ -63,6 +63,7 @@
   <project path="hardware/st/nfc" name="hardware_st_nfc" remote="tpp" />
 
   <!-- Packages repos -->
+    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="tpp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="tpp" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="tpp" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="tpp" />
