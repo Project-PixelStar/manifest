@@ -1,3 +1,4 @@
+![Pixelstar](https://github.com/Project-PixelStar/manifest/raw/14-qpr3/Banner.jpg)
 
 PixelStar
 ===========
