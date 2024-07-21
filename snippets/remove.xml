@@ -144,7 +144,9 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
-
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  
   <!-- Prebuilts repos -->
   <remove-project name="platform/prebuilts/module_sdk/art" />
   <remove-project name="platform/prebuilts/module_sdk/AdServices" />

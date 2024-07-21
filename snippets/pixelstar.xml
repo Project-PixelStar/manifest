@@ -47,6 +47,8 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="pixelstar" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixelstar" />
   <project path="packages/apps/Pif" name="packages_apps_Pif" remote="pixelstar" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixelstar" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixelstar" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="pixelstar" />
