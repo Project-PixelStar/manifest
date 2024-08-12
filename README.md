@@ -1,4 +1,4 @@
-![Pixelstar](https://github.com/Project-PixelStar/manifest/raw/14-qpr3/Banner.jpg)
+![Pixelstar](https://github.com/Project-PixelStar/manifest/raw/14-qpr3/Banner.png)
 
 PixelStar
 ===========
@@ -47,3 +47,4 @@ mka bacon -jXT
 
 
 ## Jai Shri Ram ##
+## Om Namah Shivaya ##
