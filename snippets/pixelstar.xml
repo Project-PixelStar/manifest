@@ -69,6 +69,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="pixelstar" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixelstar" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="pixelstar" />
+  <project path="packages/apps/PixelstarWallpaperStub" name="packages_apps_PixelstarWallpaperStub" remote="pixelstar" />
 
   <!-- External repos -->
   <project path="external/arm-trusted-firmware" name="external_arm-trusted-firmware" remote="pixelstar" />
