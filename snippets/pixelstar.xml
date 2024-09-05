@@ -99,6 +99,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="pixelstar" />
   <project path="hardware/samsung/nfc" name="hardware_samsung_nfc" remote="pixelstar" />
   <project path="hardware/st/nfc" name="hardware_st_nfc" remote="pixelstar" />
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="pixelstar" />
 
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="pixelstar" />
@@ -118,6 +119,7 @@
   <!-- Device repos -->
   <project path="device/pixelstar/sepolicy" name="device_pixelstar_sepolicy" remote="pixelstar" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" revision="14-legacy-um" remote="pixelstar" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" revision="14-qpr3" remote="pixelstar"/>
 
   <!-- General repos -->
   <project path="vendor/certification" name="vendor_certification" remote="pixelstar" />
