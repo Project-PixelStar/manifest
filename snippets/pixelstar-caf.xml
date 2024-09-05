@@ -31,6 +31,6 @@
   </project>
 
   <!-- Vendor repos - QCOM -->
-  <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="tpp" />
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="pixelstar" />
 
 </manifest>

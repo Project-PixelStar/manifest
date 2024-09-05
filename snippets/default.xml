@@ -7,9 +7,6 @@
   <!-- Remove unused repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- Track ThePixelProject repos -->
-  <include name="snippets/tpp.xml" />
-
   <!-- Track Pixelstar repos -->
   <include name="snippets/pixelstar.xml" />
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- External repos -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
+  <!-- Kernel repos -->
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.99" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="pixelstar" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="tpp-gitlab" />
+  <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="pixelstar" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixelstar" />
+  <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="pixelstar" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixelstar" />
+
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="pixelstar" />
+  <project path="prebuilts/module_sdk" name="prebuilts_module_sdk" remote="tpp-gitlab" />
+
+  <!-- Google repos -->
+  <project path="vendor/google/dexopt_profiles" name="vendor_google_dexopt_profiles" remote="tpp-gitlab" />
+  <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="pixelstar" />
+  <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="pixelstar" />
+  <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="pixelstar" />
+  <project path="vendor/google/ThemeIcons" name="vendor_google_ThemeIcons" remote="pixelstar" />
+</manifest>
