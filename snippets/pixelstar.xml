@@ -89,6 +89,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixelstar" />
   <project path="external/zstd" name="external_zstd" remote="pixelstar" />
   <project path="external/skia" name="external_skia" remote="pixelstar" />
+  <project path="external/boringssl" name="external_boringssl" remote="pixelstar" />
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="pixelstar" />
@@ -118,6 +119,7 @@
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixelstar" />
   <project path="system/update_engine" name="system_update_engine" remote="pixelstar" />
   <project path="system/vold" name="system_vold" remote="pixelstar" />
+  <project path="system/security" name="system_security" remote="pixelstar" />
 
   <!-- Device repos -->
   <project path="device/pixelstar/sepolicy" name="device_pixelstar_sepolicy" remote="pixelstar" />
