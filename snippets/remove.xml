@@ -74,6 +74,7 @@
   <remove-project name="platform/external/zstd" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/jemalloc_new" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
