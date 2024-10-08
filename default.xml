@@ -1469,4 +1469,13 @@
   </project>
   <!-- END open-source projects -->
 
+    <!-- Remove unused repos -->
+  <include name="snippets/remove.xml" />
+
+  <!-- Track Pixelstar repos -->
+  <include name="snippets/pixelstar.xml" />
+
+  <!-- Track LineageOS repos -->
+  <include name="snippets/lineage.xml" />
+
 </manifest>
