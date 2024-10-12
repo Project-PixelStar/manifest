@@ -45,6 +45,3 @@ mka bacon -jXT
 
 * And tons of other ROMs not mentioned above
 
-
-## Jai Shri Ram ##
-## Om Namah Shivaya ##

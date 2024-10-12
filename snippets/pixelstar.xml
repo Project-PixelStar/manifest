@@ -40,6 +40,8 @@
   <project path="manifest" name="manifest" remote="pixelstar" />
   <project path="kernel/configs" name="kernel_configs" remote="pixelstar" />
   <project path="platform_testing" name="platform_testing" remote="pixelstar" />
+  <project path="libcore" name="libcore" groups="pdk" remote="pixelstar" />
+  <project path="build/release" name="build_release" groups="pdk,tradefed" remote="pixelstar" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixelstar" />
@@ -72,6 +74,7 @@
   <project path="packages/apps/PixelstarWallpaperStub" name="packages_apps_PixelstarWallpaperStub" remote="pixelstar" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="pixelstar" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="pixelstar" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="pixelstar" />
 
   <!-- External repos -->
   <project path="external/arm-trusted-firmware" name="external_arm-trusted-firmware" remote="pixelstar" />

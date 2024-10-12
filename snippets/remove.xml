@@ -93,6 +93,8 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/build/release" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/broadcom/libbt" />
@@ -151,6 +153,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/ThemePicker"/>
+  <remove-project name="platform/packages/modules/IntentResolver" />
 
   <!-- Prebuilts repos -->
   <remove-project name="platform/prebuilts/module_sdk/art" />
