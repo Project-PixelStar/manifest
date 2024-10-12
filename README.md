@@ -1,4 +1,4 @@
-![Pixelstar](https://github.com/Project-PixelStar/manifest/raw/14-qpr3/Banner.jpg)
+![Pixelstar](https://github.com/Project-PixelStar/manifest/raw/14-qpr3/Banner.png)
 
 PixelStar
 ===========
@@ -44,4 +44,3 @@ mka bacon -jXT
  * [**ThePixelProject**](https://github.com/The-Pixel-Project)
 
 * And tons of other ROMs not mentioned above
-
